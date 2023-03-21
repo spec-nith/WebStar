@@ -1,5 +1,6 @@
 # WELCOME TO WEBSTAR!
 
+### WEBSTAR is a pre-event of the upcoming MLH sponsored hackathon, [Electrothon 5.0](electrothon.nith.ac.in/). Make sure to check out the website for more exciting events like this.
 WEBSTAR welcomes contributions to our open-source projects on GitHub. Before contributing, please make sure to give a thorough read to the below-mentioned points:point_down:.
 
 >:question:How the open source project will work:-
@@ -71,11 +72,12 @@ WEBSTAR welcomes contributions to our open-source projects on GitHub. Before con
 * Level 2 - 20 marks
 * Level 3 - 30 marks
 * Level 4 - 40 marks
-* Level 5 - 50 marks.
+* Level 5 - 50 marks
 
-Getting a pull request submitted for an Issue will add marks to your name based on the corresponding difficulty level of the Issue. Time and quality of code will also be taken into consideration.
+Getting a pull request submitted for an Issue will add marks to your name based on the corresponding difficulty level of the Issue. **Time and quality of code will also be taken into consideration**. Marks will be allotted in your respective Pull Request. Your total marks will be calculated at the end of this event.
 
 ##  :trophy: The contributor who has the highest marks after 10 days will be declared as the winner.
+##  :trophy: All the participants will get a Certificate and winner will get Goodies !💫
 
 ---
 # :book:RESOURCES
