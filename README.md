@@ -1,6 +1,6 @@
 # WELCOME TO WEBSTAR!
 
-### WEBSTAR is a pre-event of the upcoming MLH sponsored hackathon, [Electrothon 5.0](electrothon.nith.ac.in/). Make sure to check out the website for more exciting events like this.
+### WEBSTAR is a pre-event of the upcoming MLH sponsored hackathon, [Electrothon 5.0](https://electrothon.nith.ac.in/). Make sure to check out the website for more exciting events like this.
 WEBSTAR welcomes contributions to our open-source projects on GitHub. Before contributing, please make sure to give a thorough read to the below-mentioned points:point_down:.
 
 >:question:How the open source project will work:-
@@ -14,7 +14,7 @@ WEBSTAR welcomes contributions to our open-source projects on GitHub. Before con
         difficulty level, with **Level 1** being the **least 
         difficult**, and **Level 5** being the **most challenging**.
 
-* The contributor can choose to contribute on any of the issues. 
+* The contributor can choose to contribute on any of the issues.
         They   are required to create a new branch from **main** branch and then submit a pull request for the same.
 
 * Add a comment under the Pull Request with the message 
@@ -77,7 +77,7 @@ WEBSTAR welcomes contributions to our open-source projects on GitHub. Before con
 Getting a pull request submitted for an Issue will add marks to your name based on the corresponding difficulty level of the Issue. **Time and quality of code will also be taken into consideration**. Marks will be allotted in your respective Pull Request. Your total marks will be calculated at the end of this event.
 
 ##  :trophy: The contributor who has the highest marks after 10 days will be declared as the winner.
-##  :trophy: All the participants will get a Certificate and winner will get Goodies !💫
+##  :trophy: All the participants will get a Certificate and winner will get Goodies !
 
 ---
 # :book:RESOURCES
