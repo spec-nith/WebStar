@@ -1,6 +1,11 @@
 
-/***********scrollbar************/
+* {
+  
+  overflow: hidden;
+}
 
+
+/***********scrollbar************/
 
 
 /* width */
@@ -112,6 +117,11 @@
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65));
   transition-duration: 0.75s;
   padding: 42px;
+}
+
+.event__venue__left {
+  margin-right: 40rem;
+  
 }
 
 @media (max-width: 1199px) {
@@ -792,7 +802,7 @@
     font-size: 2.25rem;
     width: auto;
     margin-top: -813px;
-    margin-right: -38px;
+    margin-right: -26px;
     margin-left: 302px;
   }
 
@@ -1009,7 +1019,7 @@
     font-size: 2.25rem;
     width: auto;
     margin-top: -484px;
-    margin-right: -36px;
+    margin-right: -26px;
     margin-left: 304px;
   }
 
@@ -1303,7 +1313,7 @@
     font-size: 2.25rem;
     width: auto;
     margin-top: -76px;
-    margin-right: -50px;
+    margin-right: -26px;
     margin-left: 306px;
   }
 }.u-section-13 .u-sheet-1 {
@@ -1535,7 +1545,7 @@
     font-size: 2.25rem;
     width: auto;
     margin-top: -1136px;
-    margin-right: -37px;
+    margin-right: -26px;
     margin-left: 303px;
   }
 }.u-section-15 .u-sheet-1 {
@@ -1652,3 +1662,4 @@
     margin-left: -10px;
   }
 }
+
