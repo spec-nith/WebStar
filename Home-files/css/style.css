@@ -343,6 +343,20 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0;
 }
 
+
+#fh5co-services .cardp {
+  padding-top:10px;
+  border-radius: 2%;
+  box-shadow: 0 2px 4px rgba(8, 8, 8, 0.2);
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+#fh5co-services .cardp:hover {
+  transform: scale(1.05);
+  border: 1px solid #560056;
+}
+
 .fh5co-explore {
   padding-bottom: 40px;
 }
