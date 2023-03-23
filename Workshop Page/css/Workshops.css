@@ -1652,3 +1652,24 @@
     margin-left: -10px;
   }
 }
+
+/***Footer***/
+
+.social a:hover {
+  text-decoration: none;
+  color: #1DA1F2;
+  transition: color 0.3s ease-in;
+  position: relative;
+}
+
+.social a:hover:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 50%;
+  height: 2px;
+  background-color: #1DA1F2; 
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in;
+}
