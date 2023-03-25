@@ -278,6 +278,80 @@
 			margin: -75px 0 0 -78px;
 			z-index: 10;
 		}
+
+
+		.link{
+            color: #fff;
+            padding: 6px;
+        }
+ 
+        .link:hover{
+        
+			
+            color: #e584e5;
+			
+        }
+ 
+        .mb-3 {
+           position: relative;
+         }
+ 
+        .mb-3:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            right: 0;
+ 
+           -webkit-transition-duration: 0.3s;
+           -moz-transition-duration: 0.3s;
+           -ms-transition-duration: 0.3s;
+           -o-transition-duration: 0.3s;
+           transition-duration: 0.2s;
+ 
+           -webkit-transition-property: top, left, right, bottom;
+           -moz-transition-property: top, left, right, bottom;
+           -ms-transition-property: top, left, right, bottom;
+           -o-transition-property: top, left, right, bottom;
+           transition-property: top, left, right, bottom;
+         }
+ 
+         .mb-3:hover:before, .demo-1:focus:before{
+            -webkit-transition-delay: .1s;
+            -moz-transition-delay: .1s;
+            -ms-transition-delay: .1s;
+            -o-transition-delay: .1s;
+            transition-delay: .1s; 
+
+         
+          }
+		  .fa-facebook{
+			color: white;
+		  }
+		  .fa-facebook:hover{
+             color: rgb(98, 149, 216)
+		  }
+		  .fa-linkedin{
+			color: white;
+		  }
+		  .fa-linkedin:hover{
+             color: rgb(50, 86, 187);
+		  }
+		  .fa-twitter{
+			color: white;
+		  }
+		  .fa-twitter:hover{
+			color:rgb(75, 155, 247);
+		  }
+		  .fa-instagram{
+			color:white;
+		}
+		.fa-instagram:hover{
+
+			color:rgb(235, 55, 70);
+		}
+		  
 		
 	</style>
 
@@ -1004,7 +1078,7 @@
 						<img style="width: 30vh; position: relative; left: -10px;" class="speclogo"
 							src="./Home-files/assets/logo2.png" id="fimg">
 					</div>
-					<a class="link mb-2" href="mailto:spec@nith.ac.in" style="box-shadow: inset 20px ;" ><i class="fa fa-envelope">
+					<a class="link mb-3" href="mailto:spec@nith.ac.in"  ><i class="fa fa-envelope">
 							spec@nith.ac.in</i></a>
 					<div class="social mb-2">
 						<a target="_blank" href="https://www.facebook.com/spec.ece" style="color: white;"><i class="fa fa-facebook"></i> </a>
