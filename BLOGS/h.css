@@ -24,7 +24,7 @@
     text-decoration: none;
     color: white;
     font-size: 25px;
-    transition: 0.2s linear;
+    transition: 0.18s ease-in;
 }
 .link:hover{
     color: #ccc;
@@ -33,7 +33,7 @@
 .social i{
     font-size: 30px;
     margin : 15px;
-}
+} 
 .navbar-toggler-icon{
     color: white;
     z-index: 2000;
