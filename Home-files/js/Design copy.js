@@ -28,41 +28,41 @@ const resizeObserver = new ResizeObserver(entries => {
     }, 20);
   }
   
-  function refreshPerspective(slideshow) {
-    const perspective = slideshow.getBoundingClientRect().width / 2;
-    slideshow.style.perspective = `${perspective}px`;
+  // function refreshPerspective(slideshow) {
+  //   const perspective = slideshow.getBoundingClientRect().width / 2;
+  //   slideshow.style.perspective = `${perspective}px`;
   
-    // Translate each image accordingly
-    {
-      let perspectiveThreshold = perspective / 4;
-      let prevZ = -1;
-      for (const [i, image] of [...slideshow.children].entries()) {
-        image.dataset.y = image.dataset.y || Math.random();
-        image.dataset.z = image.dataset.z || Math.random();
+  //   // Translate each image accordingly
+  //   {
+  //     let perspectiveThreshold = perspective / 4;
+  //     let prevZ = -1;
+  //     for (const [i, image] of [...slideshow.children].entries()) {
+  //       image.dataset.y = image.dataset.y || Math.random();
+  //       image.dataset.z = image.dataset.z || Math.random();
   
-        let [y, z] = [
-          Math.floor(image.dataset.y * perspectiveThreshold) - (perspectiveThreshold / 2), 
-          Math.floor(image.dataset.z * perspectiveThreshold)
-        ];
+  //       let [y, z] = [
+  //         Math.floor(image.dataset.y * perspectiveThreshold) - (perspectiveThreshold / 2), 
+  //         Math.floor(image.dataset.z * perspectiveThreshold)
+  //       ];
   
-        // Readjust z-translation if it's to close.
-        while (perspective > 100 && Math.abs(prevZ - z) < (perspectiveThreshold * 0.2)) {
-          image.dataset.z = Math.random();
-          z = Math.floor(image.dataset.z * perspectiveThreshold);
-        }
+  //       // Readjust z-translation if it's to close.
+  //       while (perspective > 100 && Math.abs(prevZ - z) < (perspectiveThreshold * 0.2)) {
+  //         image.dataset.z = Math.random();
+  //         z = Math.floor(image.dataset.z * perspectiveThreshold);
+  //       }
   
-        prevZ = z;
-        image.style.cssText = `
-          order: ${i};
-          transform: translate3d(0, ${y}px, ${z}px);
-          z-index: ${z};
-        `;
-      }
-    }
+  //       prevZ = z;
+  //       image.style.cssText = `
+  //         order: ${i};
+  //         transform: translate3d(0, ${y}px, ${z}px);
+  //         z-index: ${z};
+  //       `;
+  //     }
+  //   }
   
-    slideshow.scrollLeft = 0;
-    return perspective;
-  }
+  //   slideshow.scrollLeft = 0;
+  //   return perspective;
+  // }
   
   (async () => {
     // Using a for..of loop in case you want more slideshows on page.
